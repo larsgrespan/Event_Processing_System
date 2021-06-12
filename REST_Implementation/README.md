@@ -5,7 +5,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About
 
-The following describes the process of implementing REST. More specific information on the individual scripts, classes and methods can be found in Kapitel 4 - Implementierung in [Thesis](Placeholder_Link_zu_Thesis_Ordner) .
+The following describes the process of implementing REST. More specific information on the individual scripts, classes and methods can be found in Kapitel 4 - Implementierung in [Thesis](https://github.com/larsgrespan/Event_Processing_System/tree/main/Thesis) .
 
 ## Usage
 
@@ -14,7 +14,7 @@ The following describes the process of implementing REST. More specific informat
 
 In case you already executed this manual or you executed the MongoDB Change Stream Implementation manual before, a cleaning of the environment is required. 
 
-1. Open a terminal and navigate to the <br> /REST_Implementation/Event_generation </br> directory. 
+1. Open a terminal and navigate to the <b> /REST_Implementation/Event_generation </b> directory. 
 
 2. Run following command
 
@@ -26,7 +26,7 @@ In case you already executed this manual or you executed the MongoDB Change Stre
 
 Since this project is a prototype and no real data is used, the data generation is simulated.
 
-1. Open a terminal and navigate to the <br> /REST_Implementation/Event_Generation </br> directory. 
+1. Open a terminal and navigate to the <b> /REST_Implementation/Event_Generation </b> directory. 
 
 2. Run following commands:
    ```sh
@@ -56,7 +56,7 @@ Since this project is a prototype and no real data is used, the data generation 
 
 In order to perform the Batch-Layer training execute following steps.
 
-1. Open a terminal and navigate to the <br> /REST_Implementation/Model_training </br> directory.
+1. Open a terminal and navigate to the <b> /REST_Implementation/Model_training </b> directory.
 
 2. Execute the Batch-Layer training script
 
@@ -90,7 +90,7 @@ In order to perform the Batch-Layer training execute following steps.
 
 ### Execute Speed-Layer Prediction
 
-1. Change the directory to <br> /REST_Implementation/Processing_server </br>. 
+1. Change the directory to <b> /REST_Implementation/Processing_server </b>. 
 
 2. Start the Server
 
@@ -100,7 +100,7 @@ In order to perform the Batch-Layer training execute following steps.
    <br> Keep the terminal open in the background <br>
 
 
-3. Open a new terminal and navigate to the <br> /REST_Implementation/Simulate_test_stations </br> directory. 
+3. Open a new terminal and navigate to the <b> /REST_Implementation/Simulate_test_stations </b> directory. 
 
 4. Simulate teststations
 
