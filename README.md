@@ -1,35 +1,35 @@
 <p align="center">
-  <h1 align="center"> Implementation of a lambda architecture  </h1>
+  <h1 align="center"> Creating a data processing architecture for building and using machine learning models in quality management  </h1>
   <p align="center">
 <br>
-   Implementation of a lambda architecture based on the premise of identical data processing in the batch and speed layers.
+
     <br/>
-    <a href="Placeholder_auf_GitHub_Ordner_Mit_Thesis"><strong>Thesis paper »</strong></a>
+    <a href="https://github.com/larsgrespan/Event_Processing_System/tree/main/Thesis"><strong>Thesis paper »</strong></a>
     <br/>
     <br/>
-    <a href="Placeholder_auf_GitHub_Ordner_mit_ChangeStreams_Impl">MongoDB Change Streams</a>
+    <a href="https://github.com/larsgrespan/Event_Processing_System/tree/main/Changestream_Implementation">MongoDB Change Streams</a>
     ·
-    <a href="Placeholder_REST_IMPL">REST</a>
+    <a href="https://github.com/larsgrespan/Event_Processing_System/tree/main/REST_Implementation">REST</a>
   </p>
 </p>
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Das Projekt wurde als Bachelorthesis des Studienganges Wirtschaftsinformatik der Hochschule Furtwangen University ([HFU](https://www.hs-furtwangen.de/)) entwickelt. 
-Kurze Beschreibung für Thesis (Vllt Abstract)
+The project was developed as a bachelor's thesis for the Business Informatics course at Furtwangen University ([HFU](https://www.hs-furtwangen.de/)). 
+This research work deals with the creation of a data processing architecture in the field of quality management. Machine learning models are used to predict product defects in a production envi-ronment. The input for the machine learning models is data generated at various quality testing sta-tions within the production process. For the creation of the architecture, the creation of the models as well as the actual usage of the models in form of defect predictions must be included. Both the creation of the models and their usage by the error predictions require upstream data processing. The central research subject of this paper is the development of an architecture that implements a unified data processing for both the model creation and the model usage. 
 <br>
-Detaillierte Informationen zu den Beiträgen und Inhalten finden Sie im [Paper](Placeholder_Link_zu_Thesis_Ordner) zur Forschungsarbeit.
+Detailed information on the contributions and contents can be found in the  [Paper](https://github.com/larsgrespan/Event_Processing_System/tree/main/Thesis).
 
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-Um eine lokale Kopie des Projekts zum Laufen zu bringen, folgen Sie den hier beschriebenen Schritten:
+To get a local copy of the project running, follow the steps described here:
 
 ### Prerequisites
 
-Im Rahmen dieser Forschungsarbeit wurde eine [Virtuelle Maschine](https://www.virtualbox.org/) mit den folgenden Spezifikationen verwendet:
+Within the scope of this research work, a [Virtuel Machine](https://www.virtualbox.org/) with the following specifications was used:
 
 **Hardware** <br>
 Architecture:		x86_64<br>
@@ -46,11 +46,11 @@ Codename:		focal<br>
 **Kernel**<br>
 5.4.0-53-generic<br>
 
-Ein entsprechendes Ubuntu-Imagine finden Sie u.a. [hier](https://www.osboxes.org/ubuntu/).
+You can find a corresponding Ubuntu Imagine here [here](https://www.osboxes.org/ubuntu/).
 
 ### Installation
 
-1. Es wird empfohlen, die folgenden Schritte innerhalb einer virtuellen Python Umgebung durchzuführen.
+1. It is recommended to perform the following steps within a Python virtual environment
    ```sh
    python3 -m venv <env-name>
    source <env-name>/bin/activate
@@ -59,7 +59,7 @@ Ein entsprechendes Ubuntu-Imagine finden Sie u.a. [hier](https://www.osboxes.org
    ```sh
    git clone https://github.com/placeholderGithubLink
    ```
-3. Führen Sie anschließend den folgenden Befehl aus, um sicherzustellen, dass die erforderlichen Bibliotheken auf Ihrem System installiert sind: 
+3. Then run the following command to ensure that the required libraries are installed on your system:  
    ```sh
    pip install -r requirements.txt
    ```
@@ -193,13 +193,13 @@ Refer to  <a href="https://docs.mongodb.com/manual/tutorial/convert-standalone-t
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Spezifische Informationen zur Durchführung finden Sie in den README.md Dateien in den Unterordnern <a href="Placeholder_auf_Change_Stream_Readme">MongoDB Change Streams README.md</a> und <a href="Placeholder_auf_REST_Readme">REST README.md</a>
+Specific information on the implementation can be found in the README.md files in the subfolders <a href="https://github.com/larsgrespan/Event_Processing_System/blob/main/Changestream_Implementation/README.md">MongoDB Change Streams README.md</a> and <a href="https://github.com/larsgrespan/Event_Processing_System/blob/main/REST_Implementation/README.md">REST README.md</a>
 
 <!-- CONTACT -->
 ## Contact
 
 Lars Grespan - larsgrespan@gmail.com </br>
-Project Link: [Placeholder_Github_Link](https://github.com/placeholderlink)
+Project Link: [Event_Processing_System](https://github.com/larsgrespan/Event_Processing_System)
 
 
 
