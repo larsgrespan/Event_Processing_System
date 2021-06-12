@@ -13,7 +13,7 @@ The following describes the process of implementing MongoDB Change Streams. More
 
 In case you already executed this manual or you executed the REST Implementation manual before, a cleaning of the environment is required. 
 
-1. Open a terminal and navigate to the <br> /ChangeStream_Implementation/Event_generation </br> directory. 
+1. Open a terminal and navigate to the <b> /ChangeStream_Implementation/Event_generation </b> directory. 
 
 2. Run following command
 
@@ -25,7 +25,7 @@ In case you already executed this manual or you executed the REST Implementation
 
 Since this project is a prototype and no real data is used, the data generation is simulated.
 
-1. Open a terminal and navigate to the <br> /Changestream_Implementation/Event_generation </br> directory. 
+1. Open a terminal and navigate to the <b> /Changestream_Implementation/Event_generation </b> directory. 
 
 2. Run following commands:
    ```sh
@@ -55,7 +55,7 @@ Since this project is a prototype and no real data is used, the data generation 
 
 In order to perform the Batch-Layer training execute following steps.
 
-1. Open a terminal and navigate to the <br> /Changestream_Implementation/Model_training </br> directory.
+1. Open a terminal and navigate to the <b> /Changestream_Implementation/Model_training </b> directory.
 
 2. Execute the Batch-Layer training script
 
@@ -91,14 +91,14 @@ In order to perform the Batch-Layer training execute following steps.
 
    Before Executing the Real-Time Predicition, the collection has to be cleaned because the storing process is the trigger for the mongodb change stream. Usually the events are new and not already present in the collections. Because of simulation purposes the same data is going to be stored in the collection, which is why the collections need to be flushed.
 
-1. Open a terminal and navigate to the <br> /Changestream_Implementation/Event_generation </br> directory. 
+1. Open a terminal and navigate to the <b> /Changestream_Implementation/Event_generation </b> directory. 
 
 2. Run following commands:
    ```sh
    sudo python3 Delete_collections.py
    ```
 
-3. Change the directory to <br> /Changestream_Implementation/Change_stream_service </br>. 
+3. Change the directory to <b> /Changestream_Implementation/Change_stream_service </b>. 
 
 4. Start MongoDB Change Streams
    ```sh
@@ -131,7 +131,7 @@ In order to perform the Batch-Layer training execute following steps.
 
    <br> Keep the terminal open in the background <br>
 
-5. Open a new terminal and navigate to the <br> /Changestream_Implementation/Event_generation </br> directory. 
+5. Open a new terminal and navigate to the <b> /Changestream_Implementation/Event_generation </b> directory. 
 
 6. Run following commands:
    ```sh
@@ -141,13 +141,13 @@ In order to perform the Batch-Layer training execute following steps.
    The predictions for all data sample can take a while.
    In the Start_change_stream_service.py window you can follow the process. All positive classified events make print statements.
 
-   <br> Note: </br>
+   <b> Note: </b>
    Before executing Step Stream-Layer Predictions (for example with other parameters as input for the Start_change_stream_service.py script), make sure you flushed the mongodb collections again using the delete_collections.py script in the /Changestream_Implementation/DataGen directory. After executing the Delete_collection.py, the Start_change_stream_service.py script has to be restarted.
 
 
 ### Show Results
 
-1. Open a new terminal and navigate to the <br> /Changestream_Implementation/Result_presentation </br> directory. 
+1. Open a new terminal and navigate to the <b> /Changestream_Implementation/Result_presentation </b> directory. 
 
 2. Run following commands:
    ```sh
