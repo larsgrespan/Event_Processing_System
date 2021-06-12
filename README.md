@@ -2,7 +2,7 @@
   <h1 align="center"> Creating a data processing architecture for building and using machine learning models in quality management  </h1>
   <p align="center">
 <br>
-
+Bachelor Thesis
     <br/>
     <a href="https://github.com/larsgrespan/Event_Processing_System/tree/main/Thesis"><strong>Thesis paper »</strong></a>
     <br/>
