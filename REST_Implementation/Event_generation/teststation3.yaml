@@ -1,0 +1,34 @@
+params:
+  overlap: True
+data:
+  Component_ID:
+    type: 'range'
+    vals: [1,1001]
+    dups: False
+    count: 1
+  Teststation_ID:
+    type: 'range'
+    vals: [3,4]
+    dups: True
+    count: 1
+  Date:
+    type: 'timestamp'
+    vals: ['2021-03-01', '2021-03-31']
+    format: '%Y-%m-%d'
+    count: 1
+  Time:
+    type: 'time'
+    vals: [60, 240]
+    count: 1
+  Product_Type:
+    type: 'categorical'
+    vals: ['PT1', 'PT2']
+    prob: [0.5, 0.5]
+    count: 1   
+  Error_Message:
+    type: 'categorical'
+    vals: ['Ok','TemperatureTooHigh', 'TemperatureTooLow']
+    prob: [0.7, 0.1, 0.2]
+    errorType: ['NV', 'WT', 'O']
+    errorRate: 0.05
+    count: 1
