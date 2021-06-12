@@ -5,7 +5,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About
 
-The following describes the process of implementing MongoDB Change Streams. More specific information on the individual scripts, classes and methods can be found in Kapitel 4 - Implementierung in[Thesis](Placeholder_Link_zu_Thesis_Ordner) .
+The following describes the process of implementing MongoDB Change Streams. More specific information on the individual scripts, classes and methods can be found in Kapitel 4 - Implementierung in [Thesis](https://github.com/larsgrespan/Event_Processing_System/tree/main/Thesis) .
 
 ## Usage
 
