@@ -26,6 +26,9 @@ In case you already executed this manual or you executed the REST Implementation
 Since this project is a prototype and no real data is used, the data generation is simulated.
 
 1. Open a terminal and navigate to the <b> /Changestream_Implementation/Event_generation </b> directory. 
+  
+Note:
+  The data generation cannot be managed in GitHub within the scope of this project for licensing reasons. The necessary files have therefore already been created and uploaded directly. Step 2 can therefore be skipped when running the GitHub version.
 
 2. Run following commands:
    ```sh
