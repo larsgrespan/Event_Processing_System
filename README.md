@@ -1,5 +1,5 @@
 <p align="center">
-  <h1 align="center"> Creating a data processing architecture for building and using machine learning models in quality management  </h1>
+  <h1 align="center"> Data processing architecture for building and using machine learning models in quality management  </h1>
   <p align="center">
 <br>
 Bachelor Thesis
