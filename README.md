@@ -57,7 +57,7 @@ You can find a corresponding Ubuntu Imagine here [here](https://www.osboxes.org/
    ```
 2. Clone the repo
    ```sh
-   git clone https://github.com/placeholderGithubLink
+   git clone https://github.com/larsgrespan/Event_Processing_System.git
    ```
 3. Then run the following command to ensure that the required libraries are installed on your system:  
    ```sh
